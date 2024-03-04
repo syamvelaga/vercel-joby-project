@@ -1,0 +1,28 @@
+.not-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.not-img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.not-head{
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.not-para{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
