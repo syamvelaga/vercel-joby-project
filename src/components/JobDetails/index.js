@@ -205,11 +205,14 @@ class JobDetails extends Component {
     </div>
   )
 
-  renderJobLoadingView = () => (
-    <div className="job-details-loader" data-testid="loader">
-      <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
-    </div>
-  )
+  // eslint-disable-next-line class-methods-use-this
+  renderJobLoadingView() {
+    return (
+      <div className="job-details-loader" data-testid="loader">
+        <Loader type="ThreeDots" color="#0b69ff" height={50} width={50} />
+      </div>
+    )
+  }
 
   renderJobDetails = () => {
     const {apiStatus} = this.state
